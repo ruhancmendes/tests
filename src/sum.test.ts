@@ -1,5 +1,5 @@
 //estrutura de teste
 
-test("example", () => {
-    console.log("Test running!")
+test("sum", () => {
+    console.log("Test sum running!")
 })
