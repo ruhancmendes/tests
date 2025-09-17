@@ -1,6 +1,6 @@
 //estrutura de teste
 
-import { sum } from "./server";
+import { sum } from "./sum";
 
 describe("sum function", () => {
     //agrupamento de testes
