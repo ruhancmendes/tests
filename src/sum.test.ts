@@ -10,6 +10,15 @@ describe("sum function", () => {
     beforeAll(() => {
         //executa uma vez antes de todos os testes
         sumResult = 10
+
+        console.log("EXECUTADO ANTES DOS TESTES", sumResult)
+    })
+
+    afterAll(() => {
+        //executa uma vez depois de todos os testes
+        sumResult = 0
+
+        console.log("EXECUTADO DEPOIS DOS TESTES", sumResult)
     })
 
     it("should do sum of 3 + 7 must be 10", () => {
